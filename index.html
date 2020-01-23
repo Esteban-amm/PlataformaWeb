@@ -3,9 +3,46 @@
   <head>
     <meta charset="utf-8">
     <title>Inicio</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <h1>Hola mundo</h1>
-    <p>Test</p>
+    <header class="site-header">
+      <div class="contenedor contenido-header">
+        <div class="barra">
+          <a href="index.html">
+            <img src="#" alt="Logotipo plataforma">
+          </a>
+          <a href="#">
+            <img src="" alt="Logo Empresa">
+          </a>
+        </div>
+      </div>
+
+    </header>
+
+
+    <main class="contenedor seccion contenido-centrado">
+        <h1 class="fw-300 centrar-texto">Bienvenido a la plataforma</h1>
+        <form class="" action="index.html" method="post">
+          <fieldset>
+            <legend>Ingrese datos de usuario</legend>
+            <div class="">
+              <label for="nombre">Nombre:</label>
+              <input type="text" name="nombre" placeholder="Nombre usuario" required>
+              <label for="contraseña">Contraseña</label>
+              <input type="password" name="contraseña" placeholder="Contraseña" required>
+            </div>
+
+            <div class="botones-login">
+              <button type="submit">Aceptar</button>
+              <button type="button">Cancelar</button>
+            </div>
+            <a href="#">Olvido su contraseña?</a>
+          </fieldset>
+        </form>
+    </main>
+
   </body>
 </html>
