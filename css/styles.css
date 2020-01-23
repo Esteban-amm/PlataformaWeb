@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*1rem = 10px*/
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+/*-----GLOBALES-----*/
+img{
+  max-width: 100%;
+}
+.contenedor{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h1{ font-size: 3.8rem;}
+h2{ font-size: 3.4rem;}
+h3{ font-size: 3rem;}
+h4{ font-size: 2.6rem;}
+/*-----UTILIDADES-----*/
+.seccion{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.fw-300{
+  font-weight: 300;
+}
+.centrar-texto{
+  text-align: center;
+}
+.contenido-centrado{
+  max-width: 80rem;
+}
+/*-----HEADER-----*/
+.site-header{
+  background-color: #9AD8F1;
+  padding: 1rem 0 3rem 0;
+}
+.contenido-header{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.barra{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3rem;
+}
+/*-----LOGIN-----*/
+legend{
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+label{
+  display: block;
+  width: auto;
+}
